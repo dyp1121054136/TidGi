@@ -1,0 +1,4 @@
+created: 20240610133330595
+list: $:/core/ui/Buttons/open-history $:/core/ui/Buttons/top-bottom $:/plugins/oeyoews/copy-title/copybutton $:/core/ui/Buttons/more-tiddler-actions $:/plugins/kookma/utility/ui/Buttons/DraggableLink $:/core/ui/Buttons/info $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/clone $:/plugins/kookma/trashbin/ui/toolbar-button $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/delete $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/new-here $:/core/ui/Buttons/edit $:/core/ui/Buttons/close $:/core/ui/Buttons/close-others $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/fold $:/core/ui/Buttons/fold-bar $:/xp/ui/Buttons/aggregation-view $:/xp/ui/Buttons/view-subtiddler
+modified: 20240610133617963
+title: $:/tags/ViewToolbar

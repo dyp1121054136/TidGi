@@ -1,0 +1,12 @@
+author: Mario Pietsch
+core-version: >=5.1.15
+dependents: 
+description: Internal links are added to tabs if selected
+icon: $:/plugins/xp/link-to-tabs/icon
+list: readme license history
+modifier: kl
+name: Link to Tabs
+plugin-type: plugin
+title: $:/plugins/xp/link-to-tabs
+type: application/json
+version: 0.0.2

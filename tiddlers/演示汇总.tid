@@ -1,0 +1,95 @@
+created: 20240126083101755
+modified: 20240606151704831
+se-type: 
+tags: 文件夹一
+title: 演示汇总
+
+!!!! ''演示文件''
+
+"""
+[[主页]]
+[[源文本]]
+[[静态展示html代码|html代码]]
+[[静态展示macro代码|macro代码]]
+"""
+
+!!!! ''样式''
+
+"""
+[[通用样式表css]]
+[[我的自定义主题1-仿Capacities风格|自定义主题]]
+[[我的自定义主题2-CaptivateLight修改版]]
+[[根据字段内容动态应用样式]]
+[[手机端补充样式]]
+[[部分编辑自定义样式-圆角背景|$:/plugins/kookma/section/styles/themes/yuanjiao]]
+[[级联-根据字段在查看模式下实现小说对话高亮|根据字段应用对话高亮]]
+[[文件夹模板]]
+"""
+
+!!!! ''工具''
+
+"""
+[[复制宏]]
+[[官方中文教程里的宏|教程宏]]
+[[粘性编辑器工具栏sticky-toolbars]]
+[[弹窗编辑器new-windows]]
+[[上下滚动加条目底部编辑按钮|上下滚动]]
+[[无动画单条目浏览|视图模板-无动画单条目浏览]]
+[[wiki语言高亮教程]]
+[[条目打开历史记录|$:/PSaT/history-sidebar]]
+[[自定义最近显示条目数|$:/core/ui/SideBar/Recent2]]
+[[排版按钮]]
+[[代码注释]]
+[[添加一个wikitext复制块|复制块]]
+[[调整页面字体大小|$:/jd/Buttons/font-size]]
+[[目录工具]]
+[[清空当前条目内容|清空]]
+[[条目行间批注]]
+[[使用筛选器批量导出条目|筛选器下拉菜单]]
+[[插入换行符|换行符]]
+[[带编辑器工具栏的段落宏|段落宏]]
+[[条目内可跳转书签|书签]]
+[[标签下拉菜单]]
+[[更多下拉按钮]]
+[[链接条目右键菜单插件补充按钮|链接条目右键菜单]]
+"""
+
+!!!! ''字体''
+
+"""
+[[霞鹜文楷屏幕阅读版v1.330|$:/plugins/dyp/LXGWWenKaiScreen]]
+[[Fira Code: 免费的编程连字等宽字体v6.2|$:/plugins/dyp/FiraCode-Regular]]
+"""
+
+!!!! ''插件库''
+
+"""
+[[CPL新版插件库|$:/plugins/Gk0Wk/CPL-Repo]]
+[[库克马Kookma插件库|$:/config/KookmaPluginLibrary]]
+[[Saq's TW5 Sandbox|SQPL]]
+[[PLM-Telumire|$:/plugins/Telumire]]
+[[flibbles-relink|$:/config/flibbles/relink/PluginLibrary]]
+"""
+
+!!!! ''插件''
+
+"""
+[[查看工具栏按钮-复制条目标题|$:/plugins/oeyoews/copy-title]]
+[[编辑工具栏按钮-确定取消|$:/plugins/telmiger/EditButtons]]
+[[预览代码高亮|$:/plugins/tiddlywiki/highlight]]
+[[xp的link-to-tab-选项卡右上角加跳转链接|$:/plugins/xp/link-to-tabs]]
+[[标签子条目计数|$:/plugins/benwebber/tag-count]]
+[[条目批量管理-commander|$:/plugins/kookma/commander]]
+[[条目小尾巴-反链汇总|$:/plugins/xp/tiddlertail]]
+[[用caption替代条目标题|$:/plugins/oeyoews/title-caption]] 目录工具已自带该功能，无需额外安装
+[[垃圾桶-回收站|$:/plugins/kookma/trashbin]]
+[[条目代码显示及快速复制code|$:/plugins/kookma/utility]]
+[[单条目浏览布局Single Tiddler View|$:/plugins/yaisog/single-tiddler-view]]
+[[部分编辑Section Editor|$:/plugins/kookma/section]]
+[[条目小标题跳转toc|$:/plugins/Gk0Wk/page-toc]]
+[[聚合视图aggregation-批量管理条目、字段、标签等|$:/plugins/xp/aggregation]]
+[[生成随机数|$:/plugins/yaisog/random-filter]]
+[[字段伪标签|$:/plugins/OokTech/GenTags]]
+[[侧边栏编辑器|$:/plugins/kookma/narenj]]
+[[链接条目右键菜单|$:/plugins/sq/links-context-menu]]
+"""

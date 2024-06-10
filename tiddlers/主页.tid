@@ -1,0 +1,12 @@
+caption: 演示-
+created: 20240117061826554
+modified: 20240504031353900
+tags: 文件夹一
+title: 主页
+
+<div class="copy-code">
+<$transclude $variable="copy-code" src={{css源文本}} tooltip=复制css title=css/>
+<$transclude $variable="copy-code" src={{html源文本}} tooltip=复制html title=html/>
+<$transclude $variable="copy-code" src={{macro源文本}} tooltip=复制macro title=macro/>
+</div>
+<<tabs "[tag[演示]]" "css">>

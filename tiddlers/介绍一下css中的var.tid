@@ -1,0 +1,41 @@
+created: 20240606052346590
+modified: 20240609171234268
+tags: AI问答存档
+title: 介绍一下css中的var
+
+CSS中的 `var()` 函数允许您使用自定义属性，这些属性通常在 `:root` 选择器中或在元素的属性中定义。自定义属性（有时称为CSS变量）是CSS中的一种新方式，用于存储值，这样您就可以在CSS文件中多次重用这些值，从而使CSS更易于维护。
+
+使用自定义属性时，您首先定义一个变量，通常是 `--variable-name` 这样的格式，并将其放在某个选择器中，比如 `:root` 伪类，这样它就可以在全局范围内使用了。
+
+例如：
+
+<<code src:""":root {
+  --main-bg-color: #3498db;
+  --font-size: 16px;
+}
+""" language:"css">>
+
+然后，您可以使用 `var()` 函数在实际的样式中引用这些变量：
+
+<<code src:"""body {
+  background-color: var(--main-bg-color);
+  font-size: var(--font-size);
+}
+""" language:"css">>
+
+如果变量 `--main-bg-color` 没有定义， `var()` 函数还可以接受一个回退值作为第二个参数，例如：
+
+<<code src:"""body {
+  background-color: var(--main-bg-color, blue);
+}
+""" language:"css">>
+
+在上面的例子中，如果 `--main-bg-color` 变量未定义，背景颜色将回退到 `blue` 。
+
+CSS变量的优点包括：
+
+* 可维护性：在一个地方更新一个变量，所有使用该变量的地方都会自动更新。
+* 可读性：变量名可以提供关于其用途的上下文，从而使样式表更易于理解。
+* 灵活性：可以在媒体查询中或通过JavaScript动态更改变量值，从而轻松地响应不同的环境和状态。
+
+使用CSS变量是现代前端开发中的一个重要特性，它们使得样式表的管理变得更加高效和强大。
