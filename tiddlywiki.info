@@ -1,0 +1,35 @@
+{
+  "description": "TW5-T-ONLINE",
+  "plugins": [
+    "tiddlywiki/browser-sniff"
+  ],
+  "themes": [
+    "tiddlywiki/vanilla"
+  ],
+  "languages": [
+    "zh-Hans"
+  ],
+  "build": {
+    "deletetiddlers": [
+      "--deletetiddlers","[[$:/UpgradeLibrary]] [[$:/UpgradeLibrary/List]]"
+    ],
+    "externaljs": [
+      "--rendertiddler","$:/core/templates/tiddlywiki5.js","tiddlywikicore.js","text/plain"
+    ],
+    "externalimages": [
+      "--setfield","[is[image]] [is[binary]] [type[application/msword]] [type[image/svg+xml]]","_canonical_uri","$:/core/templates/canonical-uri-external-image","text/plain",
+      "--setfield","[is[image]] [is[binary]] [type[application/msword]] [type[image/svg+xml]]","text","","text/plain"
+    ],
+    "externaltext": [
+      "--setfield","[!is[system]!is[image]!is[binary]!is[draft]!is[blank]!is[shadow]!is[missing]]","_canonical_uri","$:/core/templates/canonical-uri-external-text","text/plain",
+      "--setfield","[!is[system]!is[image]!is[binary]!is[draft]!is[blank]!is[shadow]!is[missing]]","text","","text/plain"
+    ],
+    "externalplugin": [
+      "--setfield","[field:plugin-type[plugin]] +[field:type[application/json]] -[[$:/core]]","_canonical_uri","$:/core/templates/canonical-uri-external-text","text/plain",
+      "--setfield","[field:plugin-type[plugin]] +[field:type[application/json]] -[[$:/core]]","text","","text/plain"
+    ]
+  },
+  "config": {
+    "retain-original-tiddler-path": true
+  }
+}
