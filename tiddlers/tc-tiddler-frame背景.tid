@@ -1,0 +1,19 @@
+created: 20220816192518240
+modified: 20240416040355269
+tags: $:/tags/Stylesheet 样式 调色板
+title: tc-tiddler-frame背景
+type: text/vnd.tiddlywiki
+
+.tc-tiddler-frame { 
+  border-radius: 10px;
+  background-color: <<colour tiddler-background>>;
+}
+
+/* 编辑器工具栏背景 */
+.tc-tiddler-edit-frame .tc-editor-toolbar {
+  background-color: <<colour tiddler-background>>; 
+}
+
+.tc-tiddler-title {
+  background-color: <<colour tiddler-background>>; 
+}
