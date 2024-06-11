@@ -11,9 +11,6 @@ tiddlers/subwiki/
 $__keepstate_*
 tiddlers/$__Import.tid
 tiddlers/Import.tid
-tiddlers/$__layout.json
-tiddlers/$__layout.json.meta
-tiddlers/$__view.tid
 
 $__Import.tid
 Import.tid
